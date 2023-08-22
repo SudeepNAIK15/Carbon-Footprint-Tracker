@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.androidapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_electricity"
+        android:name="com.example.androidapp.ui.electricity.ElectricityFragment"
+        android:label="@string/menu_electricity"
+        tools:layout="@layout/fragment_electricity" />
+
+    <fragment
+        android:id="@+id/nav_flights"
+        android:name="com.example.androidapp.ui.flights.FlightsFragment"
+        android:label="@string/menu_flights"
+        tools:layout="@layout/fragment_flights" />
+
+    <fragment
+        android:id="@+id/nav_car"
+        android:name="com.example.androidapp.ui.car.CarFragment"
+        android:label="@string/menu_car"
+        tools:layout="@layout/fragment_car" />
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.androidapp.ui.about_us.AboutUsFragment"
+        android:label="@string/menu_about_us"
+        tools:layout="@layout/fragment_about_us" />
+
+    <fragment
+        android:id="@+id/nav_water_usage"
+        android:name="com.example.androidapp.ui.water.WaterUsageFragment"
+        android:label="@string/menu_water_usage"
+        tools:layout="@layout/fragment_waterusage" />
+</navigation>

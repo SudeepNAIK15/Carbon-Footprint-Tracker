@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_menu_home_footprint"
+        android:title="@string/menu_home" />
+
+
+    <item
+        android:icon="@drawable/ic_menu_home"
+        android:title="Home Utilities">
+        <menu>
+
+            <item
+                android:id="@+id/nav_water_usage"
+                android:icon="@drawable/ic_menu_water_usage"
+                android:title="@string/menu_water_usage" />
+            <item
+                android:id="@+id/nav_electricity"
+                android:icon="@drawable/ic_menu_electricity"
+                android:title="@string/menu_electricity" />
+
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/ic_info"
+        android:title="Transports">
+        <menu>
+
+            <item
+                android:id="@+id/nav_flights"
+                android:icon="@drawable/ic_menu_flights"
+                android:title="@string/menu_flights" />
+            <item
+                android:id="@+id/nav_car"
+                android:icon="@drawable/ic_car"
+                android:title="@string/menu_car" />
+        </menu>
+    </item>
+    <item
+        android:icon="@drawable/ic_info"
+        android:title="About us">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_info"
+                android:title="@string/menu_about_us" />
+        </menu>
+    </item>
+
+</menu>
